@@ -43,7 +43,7 @@ int main(){
   printf("Quelle est la position de l'element que vous voulez supprimer ? ");
   scanf("%d", &position);
   
-  for(i = (position - 1); i < n; i++){
+  for(i = (position - 1); i < (n - 1); i++){
     tab[i] = tab[i + 1];
   }
   n--;
